@@ -1,0 +1,97 @@
+body{
+    text-align: center;
+    background-image: url('pattern-background-desktop.svg')
+}
+.outer-card{
+    width: 23rem;
+    margin: 4rem auto;
+    border-radius:15px ;
+    box-shadow: 0 3px 70px hsl(224, 23%, 55%);
+}
+.outer-card-body{
+    padding: 20px 35px ;
+}
+.card-img-top{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-bottom: 20px;
+}
+.inner-card{
+    text-align: left;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(225, 100%, 98%);
+
+}
+.card-link{
+    float: right;
+    position: absolute;
+    bottom:40px;
+    left:14rem;
+    font-size: 12px;
+    color: hsl(245, 75%, 52%);
+    font-family: "Red Hat Display";
+    font-weight: 700;
+}
+.card-link:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.music-icon{
+    float: left;
+    margin-right: 12px;
+}
+.card-title{
+    font-family: "Red Hat Display";
+    font-weight: 900;
+}
+.subtitle{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.card-text{
+    color: #8f8f8f;
+    font-family: "Red Hat Display";
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/* Buttons */
+
+.btn-primary{
+    background-color: hsl(245, 75%, 52%);
+    border-color: hsl(245, 75%, 52%);
+    border-radius:7px ;
+    width: 18rem;
+    margin-top: 25px;
+    margin-bottom: 18px;
+    box-shadow: 0px 5px 20px hsl(224, 23%, 55%);;
+}
+.btn-primary:hover{
+    background-color: hsl(224, 23%, 55%);
+    border-color: hsl(224, 23%, 55%);
+}
+.button-detail{
+    font-size: 12px;
+    font-family: "Red Hat display";
+    font-weight: 700;
+}
+.cancel-button{
+    color: #8f8f8f;
+    font-family: "Red Hat Display";
+    font-weight: 700;
+}
+.cancel-button:hover{
+    color: black;
+}
+
+/* Attribution */
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
